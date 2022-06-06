@@ -73,5 +73,17 @@
                 href="/story">Story</a
             >
         </li>
+        <li class="py-2">
+            <a
+                class="text-lg font-medium lg:px-4 text-gray-600 hover:text-green-600 transition"
+                href="/emigration-from-mexico">Emigration</a
+            >
+        </li>
+        <li class="py-2">
+            <a
+                class="text-lg font-medium lg:px-4 text-gray-600 hover:text-green-600 transition"
+                href="/opinion">Opinion</a
+            >
+        </li>
     </ul>
 </nav>

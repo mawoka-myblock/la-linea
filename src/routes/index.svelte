@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <section class="mx-auto pt-24">
     <h1 class="text-center text-3xl">
         Welcome to <b>THE</b> website about <br />
@@ -30,9 +27,31 @@
                     >The story in a nutshell</a
                 >
             </li>
-            <li class="mt-1">The emigration of Mexico</li>
-            <li class="mt-1">My personal opinion</li>
+            <li class="mt-1">
+                <a
+                    href="/emigration-from-mexico"
+                    class="text-blue-500 hover:text-blue-700 hover:underline"
+                    >The emigration of Mexico</a
+                >
+            </li>
+            <li class="mt-1">
+                <a href="/opinion" class="text-blue-500 hover:text-blue-700 hover:underline"
+                    >My personal opinion</a
+                >
+            </li>
         </ul>
+    </div>
+</section>
+
+<section class="pt-12">
+    <div>
+        <article class="prose mx-auto">
+            <p>
+                La Linea is a book written by Ann Jaramillo, a teacher who mainly teaches immigrants
+                and she wrote the story for these kids, because of what these kids had to survive,
+                just to get to America.
+            </p>
+        </article>
     </div>
 </section>
 
