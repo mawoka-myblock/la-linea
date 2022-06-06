@@ -73,6 +73,5 @@
                 href="/story">Story</a
             >
         </li>
-
     </ul>
 </nav>
