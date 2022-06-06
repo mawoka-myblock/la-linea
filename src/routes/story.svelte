@@ -22,7 +22,7 @@
             Warning: This page will spoiler if you scroll down!
         </p>
         <p class="text-center text-red-700 block lg:invisible">
-            Please visit this page on a desktop, otherwise the images won't fit well.
+            Please visit this page on a desktop, otherwise the images won't fit well and the text may not be readable.
         </p>
         <div class="flex justify-center absolute bottom-2 w-screen">
             <button class="animate-bounce" on:click|preventDefault={() => scrollIntoView('1')}>
