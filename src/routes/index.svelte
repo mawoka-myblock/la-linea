@@ -1,3 +1,7 @@
+<script>
+    import Footer from "../lib/Footer.svelte";
+</script>
+
 <section class="mx-auto pt-24">
     <h1 class="text-center text-3xl">
         Welcome to <b>THE</b> website about <br />
@@ -75,6 +79,7 @@
         </article>
     </div>
 </section>
+<Footer />
 
 <style>
     :global(body) {

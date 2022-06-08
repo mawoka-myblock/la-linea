@@ -1,3 +1,8 @@
+<script lang="ts">
+    import Chart from "$lib/Emigration-Chart.svelte"
+    import Footer from "../lib/Footer.svelte";
+</script>
+
 <div class="pt-24 h-screen">
     <section>
         <h1 class="text-center text-3xl">About the emigration from Mexico</h1>
@@ -15,15 +20,23 @@
         </article>
     </section>
 
-    <section>
+
+
+    <section class="pb-[40vh] pt-8">
+        <h3 class="text-2xl text-center">Funding of the Emigrations</h3>
+        <Chart />
+    </section>
+    <section class="pb-20">
         <p class="text-center">
             Source: <a
                 href="https://www.migrationpolicy.org/article/mexican-immigrants-united-states-2017"
                 class="text-blue-500 hover:text-blue-700 hover:underline">Migrationpolicy.org</a
-            >
+        >
         </p>
     </section>
+    <Footer />
 </div>
+
 
 <style>
     :global(body) {
