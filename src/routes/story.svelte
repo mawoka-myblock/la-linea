@@ -9,7 +9,7 @@
     import Story8Picture from '../lib/media/story-8.webp';
     import Story9Picture from '../lib/media/story-9.webp';
     import Background from '../lib/background.svg';
-    import Footer from "../lib/Footer.svelte";
+    import Footer from '../lib/Footer.svelte';
 </script>
 
 <div class="snap-y snap-mandatory">
