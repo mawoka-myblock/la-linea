@@ -1,38 +1,11 @@
-# create-svelte
+# La Linea
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repo contains a website about the book, La Linea by Ann Jaramillo, which I created as part of a school project.
 
-## Creating a project
+I just made it open-source, so anyone can learn or use it. This repo itself won't receive any big updates and i also
+won't care about it anymore since the project is already over.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech-Site
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This website was made with Svelte, SvelteKit and TailwindCSS. It's deployed by Vercel. Want to modify it? Clone it, and
+you'll figure the rest out yourself.
